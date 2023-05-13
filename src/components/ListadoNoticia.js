@@ -2,7 +2,7 @@ import React from 'react'
 import Noticia from './Noticia'
 import PropTypes from 'prop-types'
 
-const ListadoNoticia = ({noticias}) => {
+const ListadoNoticia = ({noticias = []}) => {
   return (
     <div className='row'>
         {noticias.map( noticia => (
